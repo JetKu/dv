@@ -23,7 +23,7 @@ An interactive data visualization exploring the Dutch Top 2000 music countdown, 
 - **Chart Data**: Mediamarkt's weekly Top 40 charts
 
 ## Local Development
-
+ 
 ```bash
 npm install
 npm run dev
