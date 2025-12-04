@@ -12,7 +12,7 @@ export const useTop2000Data = () => {
     let isMounted = true;
 
     d3
-      .csv('/data/top2000_2016_positions.csv')
+      .csv('/dv/data/top2000_2016_positions.csv')
       .then((rows) => {
         if (!isMounted) return;
         const parsed = rows.map((row) => {

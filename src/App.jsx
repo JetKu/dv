@@ -118,7 +118,7 @@ function App() {
       </div>
 
       <main className="outer-margin scrolly-container">
-        {!isMobile && songs.length > 0 && (
+        {songs.length > 0 && (
           <div className="scrolly-graphic">
             <Top2000Chart 
               isMobile={isMobile} 
@@ -166,7 +166,8 @@ function App() {
             ))}
           </Scrollama>
           {loading && <p>Loading Top 2000 data...</p>}
-          {error && <p className="error-text">Failed to load data. Please try again later.</p>}
+          {error && <p className="error-text">Failed to load data: {error.message}</p>}
+          {songs.length > 0 && <p style={{color: 'green'}}>Data loaded: {songs.length} songs</p>}
           {isMobile && (
             <div className="scrolly-mobile-note">
               <p>Please view on a desktop for the full interactive experience.</p>
