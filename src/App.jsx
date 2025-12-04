@@ -115,6 +115,11 @@ function App() {
           </a>
           .
         </p>
+
+        <div className="scroll-hint">
+          <div className="scroll-text">Scroll to explore</div>
+          <div className="scroll-arrow">↓</div>
+        </div>
       </div>
 
       <main className="outer-margin scrolly-container">

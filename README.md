@@ -1,7 +1,5 @@
 # Top 2000 Music Galaxy ✨
 
-> Interactive data visualization of the Dutch Top 2000 music countdown
-
 An interactive data visualization exploring the Dutch Top 2000 music countdown, featuring scrollytelling narrative and dynamic D3.js visualizations.
 
 ## Features
